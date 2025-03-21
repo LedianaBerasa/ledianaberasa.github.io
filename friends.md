@@ -1,8 +1,8 @@
 ---
-layout: defaul
+layout: default
 title: Friends
 ---
-# Friends page
+#Friends page
 
 Berikut teman-teman saya di kelas:
 -  [Ahmad Aulia Fahlevi](https://lepii1.github.io/)
