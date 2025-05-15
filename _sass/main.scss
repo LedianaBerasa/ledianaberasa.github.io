@@ -11,18 +11,18 @@ p {
 
 body {
     font-family: $font-stack; line-height: 1.6;
-    background-color: #f4f4f4;
+    background-color: #f4f;
 }
 
 header {
-    text-align: center; padding: 24px; color: #fff;
+    text-align: center; padding: 24px; color: #333;
     background-color: $primary-color;
 }
 
 main {
     padding: 24px; margin-top: 24px;
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
-    background-color: #fff;
+    background-color: #333;
 }
 
 footer {
