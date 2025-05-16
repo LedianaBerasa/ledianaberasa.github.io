@@ -11,18 +11,18 @@ p {
 
 body {
     font-family: $font-stack; line-height: 1.6;
-    background-color: #f4f;
+    background-color: #f4f4f4;
 }
 
 header {
-    text-align: center; padding: 24px; color: #333;
+    text-align: center; padding: 24px; color: #fff;
     background-color: $primary-color;
 }
 
 main {
     padding: 24px; margin-top: 24px;
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
-    background-color: #333;
+    background-color: #fff;
 }
 
 footer {
@@ -54,11 +54,7 @@ nav {
 
 .container {
     width: 80%; margin: auto; overflow: hidden;
-}
 
-.profile-picture {
-    width: 150px; height: 150px; border-radius: 50%; margin: 24px auto;
-    background-color: $secondary-color;
 }
 .profile-picture{
     box-shadow: 0 px 12 px rgb(245, 6, 165);
