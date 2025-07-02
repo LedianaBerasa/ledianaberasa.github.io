@@ -1,4 +1,7 @@
-url: 'https://ledianaberasa.github.io/'
+title: Lediana Berasa
+description: Situs web pribadi
+baseurl: "" # untuk GitHub Pages user site
+url: "https://ledianaberasa.github.io"
 
 plugins:
   - jekyll-feed
