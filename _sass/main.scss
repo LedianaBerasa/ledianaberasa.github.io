@@ -29,7 +29,10 @@ footer {
     text-align: center; padding: 8px; margin-top: 24px; color: #fff;
     background-color: $primary-color;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 161d19ed0c78e4d06eb492310b5688e0a8a7fba5
 h2 {
     color: #333; margin-bottom: 8px;
 }
@@ -54,6 +57,7 @@ nav {
 
 .container {
     width: 80%; margin: auto; overflow: hidden;
+<<<<<<< HEAD
 
 }
 .profile-picture{
@@ -62,6 +66,14 @@ nav {
 }
 
 
+=======
+}
+
+.profile-picture {
+    width: 150px; height: 150px; border-radius: 50%; margin: 24px auto;
+    background-color: $secondary-color;
+}
+>>>>>>> 161d19ed0c78e4d06eb492310b5688e0a8a7fba5
 .active {
     background-color: $secondary-color;
 }
