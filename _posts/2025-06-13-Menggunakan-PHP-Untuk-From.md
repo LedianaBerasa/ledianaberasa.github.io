@@ -4,25 +4,11 @@ title: "Langkah-Langkah Menggunakan PHP Untuk Form"
 ---
 
 Langkah-Langkah Membuat Form dengan PHP
-
 Berikut adalah panduan dasar membuat form HTML dan memprosesnya menggunakan PHP:
 
 1.  Buat File HTML Form
-
-```html
-<form action="proses.php" method="post">
-  <label for="nama">Nama:</label>
-  <input type="text" id="nama" name="nama" required><br><br>
-  
-  <label for="email">Email:</label>
-  <input type="email" id="email" name="email" required><br><br>
-  
-  <input type="submit" value="Kirim">
-</form>
-
-2. Buat File PHP untuk Memproses Data
+Untuk Memproses Data
 Misalnya proses.php:
-
 php
 Copy
 Edit

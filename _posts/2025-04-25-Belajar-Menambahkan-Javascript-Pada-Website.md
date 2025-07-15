@@ -19,21 +19,6 @@ Ada tiga cara umum untuk menambahkan JavaScript ke dalam halaman HTML:
 
 Menulis kode JavaScript langsung di dalam file HTML, menggunakan tag `<script>` di bagian `<head>` atau sebelum penutup `</body>`:
 
-```html
-<!DOCTYPE html>
-<html>
-<head>
-  <title>Contoh Internal JavaScript</title>
-  <script>
-   function sapaPengunjung() {
-      alert("Selamat datang di websitemu!");
-    }
-  </script>
-</head>
-<body onload="sapaPengunjung()">
-  <h1>Halo, Dunia!</h1>
-</body>
-</html>
 
 2.Inline JavaScript
 Menambahkan JavaScript langsung ke dalam atribut HTML, seperti contoh ini:
@@ -41,33 +26,9 @@ Menambahkan JavaScript langsung ke dalam atribut HTML, seperti contoh ini:
 html
 Copy
 Edit
-<button onclick="alert('Tombol diklik!')">Klik Saya</button>
+
 3. External JavaScript
 Menulis kode JavaScript di file terpisah (misalnya script.js) lalu dihubungkan ke HTML dengan tag <script>:
-
-script.js
-
-javascript
-Copy
-Edit
-function halo() {
-  alert("Hello dari file eksternal!");
-}
-index.html
-
-html
-Copy
-Edit
-<!DOCTYPE html>
-<html>
-<head>
-  <title>Contoh External JS</title>
-  <script src="script.js"></script>
-</head>
-<body>
-  <button onclick="halo()">Klik Saya</button>
-</body>
-</html>
 Tips Penggunaan JavaScript
 Letakkan tag <script> sebelum </body> agar konten HTML termuat terlebih dahulu.
 
